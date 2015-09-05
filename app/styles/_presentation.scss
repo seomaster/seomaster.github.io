@@ -1,0 +1,29 @@
+//Presentation
+#presentation {
+    margin-top: 150px;
+    #intro-presentation {
+        margin-bottom: 70px;
+        text-align: center;
+        h1,
+        h2 {
+            font-weight: 300;
+            font-size: 300%;
+            margin: 0;
+            color: $c_heading
+        }
+        .rotate {
+            font-weight: 700;
+        }
+    }
+    .txt {
+        h3 {
+            color: $c_3rd-heading;
+            font-size: 170%;
+            border-bottom: 1px solid $c_presentation-heading-border;
+            padding-bottom: 15px;
+        }
+        p {
+            font-size: 110%;
+        }
+    }
+}

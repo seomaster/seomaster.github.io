@@ -1,0 +1,35 @@
+//Menu
+#top-menu {
+    border-bottom: 1px solid lighten($blue,30);
+    background-color: $c_top-nav-bg;
+    padding: 10px 0;
+    #menu-list {
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 80%;
+        padding-top: 10px;
+        li {
+            display: inline-block;
+            padding: 0 20px;
+            letter-spacing: -0.04em;
+            a {
+                color: $c_top-nav-link;
+                padding-bottom: 5px;
+                &:hover {
+                    text-decoration: none;
+                    border-bottom: 4px solid $c_top-nav-link-hover-border;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        img {height:40px}
+        padding: 0;
+    }
+    .navbar-toggle {
+        background: $orange;
+        color: #fff;
+        border: 0;
+    }
+}

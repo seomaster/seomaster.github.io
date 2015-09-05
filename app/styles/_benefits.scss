@@ -1,0 +1,33 @@
+.full-width.benefits {
+    background: $c_benefits-bg;
+    margin: 150px 0 50px;
+}
+
+#benefits {
+    padding: 20px 15px 60px;
+    text-align: center;
+    .boxes {
+        .item {
+            .item-container {
+                background: $c_benefits-item-bg;
+                margin: 10px 0;
+                padding: 20px;
+                height: 400px;
+                @include box-style();
+                h3 {
+                    color: $c_benefits-item-title;
+                    margin-bottom: 20px;
+                }
+                img {
+                    @extend .center-block;
+                    margin-top: 25px;
+                }
+                p {
+                    color: $c_benefits-item-txt;
+                    font-weight: 300;
+                    font-size: 90%;
+                }
+            }
+        }
+    }
+}

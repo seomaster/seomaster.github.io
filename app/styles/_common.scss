@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    color: $c_txt;
+    font-size: 170%;
+    font-weight: 300;
+}
+
+img {
+    @extend .img-responsive;
+}
+
+.btn {
+    border-radius: 3px;
+    border: 0;
+    padding: 10px 25px;
+}
+
+.btn.btn-primary {
+    background-color: $c_btn-primary-bg;
+    color: $c_btn-primary;
+}
+
+.btn.btn-secondary {
+    background-color: $c_btn-secondary-bg;
+    color: $c_btn-secondary;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+    h2.title {
+        @include heading-secondary();
+    }
+    h3.title {
+        @include heading();
+    }
+}
+
+// FontAwesome Icons
+.fa.fa-facebook-official {
+    color: $c_facebook-icon;
+}
+
+.fa.fa-twitter-square {
+    color: $c_twitter-icon;
+}

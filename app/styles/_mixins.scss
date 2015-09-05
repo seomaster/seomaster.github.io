@@ -1,0 +1,31 @@
+@mixin box-style() {
+    border-radius: 8px;
+    border: 1px solid $c_boxes-border;
+    border-bottom: 3px solid $c_boxes-border;
+}
+
+@mixin form-fields() {
+    padding:10px;
+    border-radius: 0;
+    border: 1px solid $c_boxes-border;
+    border-bottom: 3px solid $c_boxes-border;
+}
+
+@mixin heading() {
+    color: $c_heading;
+    padding: 20px 0;
+    font-size: 325%;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@mixin heading-secondary() {
+    color: $c_2nd-heading;
+    padding: 20px 0;
+    font-size: 300%;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}

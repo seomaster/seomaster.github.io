@@ -1,0 +1,22 @@
+//Contact
+#contact {
+    margin-top: 50px;
+    #form-contact {
+        .field {
+            @include form-fields();
+            display: block;
+            width: 100%;
+        }
+    }
+    textarea.field {
+        @include form-fields();
+        width: 100%;
+        height: 232px;
+    }
+    .submit {
+        text-align: right;
+        button {
+            font-size: 110%;
+        }
+    }
+}

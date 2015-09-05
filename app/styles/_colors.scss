@@ -1,0 +1,68 @@
+//Color variables
+$white: #fff;
+$black: #000;
+$gray: #ccc;
+$gray-light: #f2f4f5;
+$gray-light-2: #d1dee4;
+$gray-dark: lighten($black,30);
+$blue: #379eee;
+$blue-dark: #327197;
+$blue-coated: #193b4e;
+$blue-coated-2: #1b4e72;
+$navy-blue: #343f5b;
+$navy-blue-faded: #7b8597;
+$green: #60aa2f;
+$green-light: #bcff00;
+$green-dark: #4d600f;
+$orange: #e1681f;
+$red: #cc0000;
+$facebook: #3a4c8c;
+$twitter: $blue;
+
+// Common elements variables
+$c_txt: $gray-dark;
+$c_boxes-border: $gray-light-2;
+$c_facebook-icon:$facebook;
+$c_twitter-icon:$twitter;
+
+// Header navigation
+$c_top-nav-bg: $white;
+$c_top-nav-link: $blue-coated;
+$c_top-nav-link-hover-border: lighten($blue,30);
+
+// Section: Intro
+$c_intro-bg: $blue;
+$c_intro: $white;
+$c_intro-btn-bg: $green-light;
+$c_intro-btn: $green-dark;
+
+// Section: Presentation
+$c_presentation-heading-border: $gray;
+
+// Section: Benefits
+$c_benefits-bg: $gray-light;
+$c_benefits-item-bg: $white;
+$c_benefits-item-title: $blue-dark;
+$c_benefits-item-txt: lighten($black,30);
+
+// Section: Comparison
+$c_compare-title-featured-bg: $blue;
+$c_compare-description-bg: $navy-blue-faded;
+$c_compare-description-featured-bg: $navy-blue;
+$c_compare-description: $white;
+
+// Headings
+$c_heading: $blue-coated;
+$c_2nd-heading: $blue-coated-2;
+$c_3rd-heading: $orange;
+
+//Buttons
+$c_btn-primary-bg: $blue;
+$c_btn-primary: $white;
+$c_btn-secondary-bg: $orange;
+$c_btn-secondary: $white;
+
+// Footer
+$c_footer-border: $blue;
+$c_footer-heading: $blue;
+$c_footer-txt: $gray-dark;
