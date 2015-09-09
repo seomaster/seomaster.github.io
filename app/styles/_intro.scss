@@ -3,7 +3,8 @@
     @extend .jumbotron;
     background: $c_intro-bg;
     color: $c_intro;
-    padding: 90px 15px;
+    padding: 90px 15px 40px;
+    position: relative;
     .title {
         border-top: 1px solid $c_intro;
         border-bottom: 1px solid $c_intro;
@@ -22,13 +23,19 @@
         }
     }
     .featured {
-      margin-top:20px;
+        margin-top: 20px;
+        position: absolute;
     }
     .promo {
         a {
             background-color: $c_intro-btn-bg;
             color: $c_intro-btn;
             font-weight: 700;
+            text-transform: uppercase;
+            &:hover {
+                background-color: darken($c_intro-btn-bg,5);
+            }
         }
+        .icon {padding-right: 5px;}
     }
 }
