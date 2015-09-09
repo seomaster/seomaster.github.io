@@ -12,8 +12,8 @@ $blue-coated-2: #1b4e72;
 $navy-blue: #343f5b;
 $navy-blue-faded: #7b8597;
 $green: #60aa2f;
-$green-light: #bcff00;
-$green-dark: #4d600f;
+$green-light: #b8e72c;
+$green-dark: #454d11;
 $orange: #e1681f;
 $red: #cc0000;
 $facebook: #3a4c8c;
@@ -47,6 +47,7 @@ $c_benefits-item-txt: lighten($black,30);
 
 // Section: Comparison
 $c_compare-title-featured-bg: $blue;
+$c_compare-title-featured: lighten($c_compare-title-featured-bg,40);
 $c_compare-description-bg: $navy-blue-faded;
 $c_compare-description-featured-bg: $navy-blue;
 $c_compare-description: $white;
