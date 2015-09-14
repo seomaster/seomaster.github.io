@@ -1,6 +1,6 @@
 .full-width.benefits {
     background: $c_benefits-bg;
-    margin-top:150px;
+    margin-top: 150px;
     padding: 50px 0;
 }
 
@@ -8,20 +8,26 @@
     padding: 20px 15px 60px;
     text-align: center;
     .boxes {
+        @include make-row();
         .item {
+            @include make-sm-column(6);
+            @include make-md-column(4);
             .item-container {
                 background: $c_benefits-item-bg;
                 margin: 10px 0;
                 padding: 20px;
-                height: 400px;
+                min-height: 410px;
                 @include box-style();
                 h3 {
                     color: $c_benefits-item-title;
                     margin-bottom: 20px;
                 }
                 img {
+                    //@include make-md-column(8);
+                    width: 35%;
                     @extend .center-block;
                     margin-top: 25px;
+                    float: none;
                 }
                 p {
                     color: $c_benefits-item-txt;
